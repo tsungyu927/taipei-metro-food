@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { TransformWrapper, TransformComponent } from '@pronestor/react-zoom-pan-pinch'
 import Station from 'components/station'
 import stationData from 'data/station.json'
 
@@ -65,9 +66,13 @@ const Map = () => {
 
   return (
     <div className="w-full h-full flex justify-center items-center overflow-auto">
-      <svg style={svgStyle}>
-        <g>{stations}</g>
-      </svg>
+      <TransformWrapper>
+        <TransformComponent>
+          <svg style={svgStyle}>
+            <g>{stations}</g>
+          </svg>
+        </TransformComponent>
+      </TransformWrapper>
     </div>
   )
 }
