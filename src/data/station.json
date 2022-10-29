@@ -1,0 +1,40 @@
+{
+  "city": {
+    "en": "Taipei",
+    "zh": "台北"
+  },
+  "size": {
+    "width": 960,
+    "height": 1286
+  },
+  "stations": [
+    {
+      "id": "G01",
+      "name": {
+        "en": "Xindian",
+        "zh": "新店"
+      },
+      "pos": {
+        "x": 571,
+        "y": 1228
+      },
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "id": "G02",
+      "name": {
+        "en": "Xindian District Office",
+        "zh": "新店區公所"
+      },
+      "pos": {
+        "x": 571,
+        "y": 1185
+      },
+      "lines": [
+        "Green"
+      ]
+    }
+  ]
+}
