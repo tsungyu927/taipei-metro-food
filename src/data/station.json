@@ -10,9 +10,11 @@
   "stations": [
     {
       "id": "G01",
+      "stationId": ["G01"],
       "name": {
         "en": "Xindian",
-        "zh": "新店"
+        "zh": "新店",
+        "anchor": "right"
       },
       "pos": {
         "x": 571,
@@ -24,13 +26,64 @@
     },
     {
       "id": "G02",
+      "stationId": ["G02"],
       "name": {
         "en": "Xindian District Office",
-        "zh": "新店區公所"
+        "zh": "新店區公所",
+        "anchor": "right"
       },
       "pos": {
         "x": 571,
         "y": 1185
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "id": "G03",
+      "stationId": ["G03"],
+      "name": {
+        "en": "Qizhang",
+        "zh": "七張",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 571,
+        "y": 1144
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "id": "G04",
+      "stationId": ["G04", "Y07"],
+      "name": {
+        "en": "Dapinglin",
+        "zh": "大坪林",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 571,
+        "y": 1088
+      },
+      "lines": [
+        "GREEN",
+        "YELLOW"
+      ]
+    },
+    {
+      "id": "G05",
+      "stationId": ["G05"],
+      "name": {
+        "en": "Jingmei",
+        "zh": "景美",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 571,
+        "y": 1088
       },
       "lines": [
         "GREEN"

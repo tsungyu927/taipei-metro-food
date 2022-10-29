@@ -1,27 +1,65 @@
-import React from 'react'
-import { stationColor } from 'utils/colorConvert'
+import React, { useMemo } from 'react'
+import { stationColor, stationTextPosConvert, textAnchorConvert } from 'utils/mapConfig'
 
 interface StationProps {
+  stationId: string
+  name: {
+    en: string
+    zh: string
+    anchor: string
+  }
   x: number
   y: number
   r: number
+  strokeWidth: number
   line: string[]
+  fontSize: number
 }
 
-const Station = ({ x, y, r, line }: StationProps) => {
+const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize }: StationProps) => {
+  const stationTextPos = useMemo<{ x: number, y: number }>(() => stationTextPosConvert({ x, y }, name.anchor), [x, y, name.anchor])
   const circleStyle = {
     stroke: stationColor(line),
-    strokeWidth: 3,
+    strokeWidth,
     fill: '#fff'
   }
 
+  const onMouseEnter = () => {
+    console.log(`Enter: ${name.zh}`)
+  }
+
+  const onMouseLeave = () => {
+    console.log(`Leave: ${name.zh}`)
+  }
+
+  const onClick = () => {
+    console.log(`Click: ${name.zh}`)
+  }
+
   return (
-    <circle
-      cx={x}
-      cy={y}
-      r={r}
-      style={circleStyle}
-    />
+    <g
+      onMouseEnter={() => onMouseEnter()}
+      onMouseLeave={() => onMouseLeave()}
+      onClick={() => onClick()}
+    >
+      <circle
+        cx={x}
+        cy={y}
+        r={r}
+        style={circleStyle}
+      />
+      <text x={x} y={y} fontSize={fontSize} fontFamily="TaipeiSans" textAnchor="middle" dy=".3em">{stationId}</text>
+      <text
+        x={stationTextPos.x}
+        y={stationTextPos.y}
+        fontSize={fontSize}
+        fontFamily="TaipeiSans"
+        textAnchor={textAnchorConvert(name.anchor)}
+        dy=".3em"
+      >
+          {name.zh}
+      </text>
+    </g>
   )
 }
 

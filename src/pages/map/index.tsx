@@ -4,6 +4,7 @@ import Station from 'components/station'
 import stationData from 'data/station.json'
 
 import { MapDataProps } from 'interface/I_Map'
+import { DEFAULT } from 'utils/mapConfig'
 
 const Map = () => {
   // the aspect of 【svg】
@@ -56,20 +57,24 @@ const Map = () => {
     stationData.stations.map((station: MapDataProps) => (
       <Station
         key={station.id}
+        stationId={station.id}
+        name={station.name}
         x={station.pos.x * scale}
         y={station.pos.y * scale}
-        r={10 * scale}
+        r={DEFAULT.RADIUS * scale}
+        strokeWidth={DEFAULT.STROKEWIDTH * scale}
         line={station.lines}
+        fontSize={DEFAULT.FONTSIZE * scale}
       />
     ))
   , [scale])
 
   return (
-    <div className="w-full h-full flex justify-center items-center overflow-auto">
+    <div className="w-full h-full flex justify-center items-start overflow-auto">
       <TransformWrapper>
         <TransformComponent>
           <svg style={svgStyle}>
-            <g>{stations}</g>
+            <g id="stations">{stations}</g>
           </svg>
         </TransformComponent>
       </TransformWrapper>
