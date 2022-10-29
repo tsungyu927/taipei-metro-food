@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 import Map from 'pages/map'
 
-function App() {
+function App () {
   return (
-    <div className="App">
+    <div className="w-screen h-screen flex justify-center items-center">
       <Map />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
