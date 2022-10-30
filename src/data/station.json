@@ -9,7 +9,6 @@
   },
   "stations": [
     {
-      "id": "G01",
       "stationId": ["G01"],
       "name": {
         "en": "Xindian",
@@ -17,15 +16,14 @@
         "anchor": "right"
       },
       "pos": {
-        "x": 571,
-        "y": 1228
+        "x": 569,
+        "y": 1225
       },
       "lines": [
         "GREEN"
       ]
     },
     {
-      "id": "G02",
       "stationId": ["G02"],
       "name": {
         "en": "Xindian District Office",
@@ -33,15 +31,14 @@
         "anchor": "right"
       },
       "pos": {
-        "x": 571,
-        "y": 1185
+        "x": 569,
+        "y": 1183
       },
       "lines": [
         "GREEN"
       ]
     },
     {
-      "id": "G03",
       "stationId": ["G03"],
       "name": {
         "en": "Qizhang",
@@ -49,15 +46,14 @@
         "anchor": "right"
       },
       "pos": {
-        "x": 571,
-        "y": 1144
+        "x": 569,
+        "y": 1140
       },
       "lines": [
         "GREEN"
       ]
     },
     {
-      "id": "G04",
       "stationId": ["G04", "Y07"],
       "name": {
         "en": "Dapinglin",
@@ -65,8 +61,8 @@
         "anchor": "right"
       },
       "pos": {
-        "x": 571,
-        "y": 1088
+        "x": 569,
+        "y": 1086
       },
       "lines": [
         "GREEN",
@@ -74,7 +70,6 @@
       ]
     },
     {
-      "id": "G05",
       "stationId": ["G05"],
       "name": {
         "en": "Jingmei",
@@ -82,11 +77,1706 @@
         "anchor": "right"
       },
       "pos": {
-        "x": 571,
-        "y": 1088
+        "x": 569,
+        "y": 1038
       },
       "lines": [
         "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G06"],
+      "name": {
+        "en": "Wanlong",
+        "zh": "萬隆",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 541,
+        "y": 998
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G07"],
+      "name": {
+        "en": "Gongguan",
+        "zh": "公館",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 509,
+        "y": 964
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G08"],
+      "name": {
+        "en": "Taipower Building",
+        "zh": "台電大樓",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 477,
+        "y": 931
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G09", "O05"],
+      "name": {
+        "en": "Guting",
+        "zh": "古亭",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 439,
+        "y": 893
+      },
+      "lines": [
+        "GREEN",
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["G10", "R08"],
+      "name": {
+        "en": "Chiang Kai-Shek Memorial Hall",
+        "zh": "中正紀念堂",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 394,
+        "y": 846
+      },
+      "lines": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["G11"],
+      "name": {
+        "en": "Xiaonamen",
+        "zh": "小南門",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 323,
+        "y": 846
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G12"],
+      "name": {
+        "en": "Ximen",
+        "zh": "西門",
+        "anchor": "top-left"
+      },
+      "pos": {
+        "x": 323,
+        "y": 757
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G13"],
+      "name": {
+        "en": "Beimen",
+        "zh": "北門",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 323,
+        "y": 707
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G14", "R11"],
+      "name": {
+        "en": "Zhongshan",
+        "zh": "中山",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 674
+      },
+      "lines": [
+        "GREEN",
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["G15", "O08"],
+      "name": {
+        "en": "Songjiang Nanjing",
+        "zh": "松江南京",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 495,
+        "y": 674
+      },
+      "lines": [
+        "GREEN",
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["G16", "BR11"],
+      "name": {
+        "en": "Nanjing Fuxing",
+        "zh": "南京復興",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 592,
+        "y": 674
+      },
+      "lines": [
+        "GREEN",
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["G17"],
+      "name": {
+        "en": "Taipei Arena",
+        "zh": "台北小巨蛋",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 659,
+        "y": 674
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G18"],
+      "name": {
+        "en": "Nanjing Sanmin",
+        "zh": "南京三民",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 709,
+        "y": 674
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["G19"],
+      "name": {
+        "en": "Songshan",
+        "zh": "松山",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 766,
+        "y": 674
+      },
+      "lines": [
+        "GREEN"
+      ]
+    },
+    {
+      "stationId": ["R02"],
+      "name": {
+        "en": "Xiangshan",
+        "zh": "象山",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 764,
+        "y": 846
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R03"],
+      "name": {
+        "en": "Taipei 101/World Trade Center",
+        "zh": "台北101/世貿",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 712,
+        "y": 846
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R04"],
+      "name": {
+        "en": "Xinyi Anhe",
+        "zh": "信義安和",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 659,
+        "y": 846
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R05", "BR09"],
+      "name": {
+        "en": "Daan",
+        "zh": "大安",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 592,
+        "y": 846
+      },
+      "lines": [
+        "RED",
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["R06"],
+      "name": {
+        "en": "Daan Park",
+        "zh": "大安森林公園",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 538,
+        "y": 846
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R07","O06"],
+      "name": {
+        "en": "Dongmen",
+        "zh": "東門",
+        "anchor": "top-left"
+      },
+      "pos": {
+        "x": 483,
+        "y": 846
+      },
+      "lines": [
+        "RED",
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["R09"],
+      "name": {
+        "en": "NTU Hospital",
+        "zh": "台大醫院",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 394,
+        "y": 800
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R10", "BL12"],
+      "name": {
+        "en": "Taipei Main Station",
+        "zh": "台北車站",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 757
+      },
+      "lines": [
+        "RED",
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["R12"],
+      "name": {
+        "en": "Shuanglian",
+        "zh": "雙連",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 394,
+        "y": 628
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R13", "O11"],
+      "name": {
+        "en": "Minquan W. Rd.",
+        "zh": "民權西路",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 584
+      },
+      "lines": [
+        "RED",
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["R14"],
+      "name": {
+        "en": "Yuanshan",
+        "zh": "圓山",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 522
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R15"],
+      "name": {
+        "en": "Jiantan",
+        "zh": "劍潭",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 477
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R16"],
+      "name": {
+        "en": "Shilin",
+        "zh": "士林",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 432
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R17"],
+      "name": {
+        "en": "Zhishan",
+        "zh": "芝山",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 386
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R18"],
+      "name": {
+        "en": "Mingde",
+        "zh": "明德",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 341
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R19"],
+      "name": {
+        "en": "Shipai",
+        "zh": "石牌",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 394,
+        "y": 296
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R20"],
+      "name": {
+        "en": "Qilian",
+        "zh": "唭哩岸",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 359,
+        "y": 266
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R21"],
+      "name": {
+        "en": "Qiyan",
+        "zh": "奇岩",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 311,
+        "y": 266
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R22", "R22A"],
+      "name": {
+        "en": "Beitou",
+        "zh": "北投",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 267,
+        "y": 266
+      },
+      "lines": [
+        "RED",
+        "PINK"
+      ]
+    },
+    {
+      "stationId": ["R23"],
+      "name": {
+        "en": "Fuxinggang",
+        "zh": "復興崗",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 221,
+        "y": 266
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R24"],
+      "name": {
+        "en": "Zhongyi",
+        "zh": "忠義",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 177,
+        "y": 266
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R25"],
+      "name": {
+        "en": "Guandu",
+        "zh": "關渡",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 153,
+        "y": 234
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R26"],
+      "name": {
+        "en": "Zhuwei",
+        "zh": "竹圍",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 153,
+        "y": 190
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R27"],
+      "name": {
+        "en": "Hongshulin",
+        "zh": "紅樹林",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 153,
+        "y": 141
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["R28"],
+      "name": {
+        "en": "Tamsui",
+        "zh": "淡水",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 153,
+        "y": 92
+      },
+      "lines": [
+        "RED"
+      ]
+    },
+    {
+      "stationId": ["O01"],
+      "name": {
+        "en": "Nanshijiao",
+        "zh": "南勢角",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 383,
+        "y": 1090
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O02", "Y11"],
+      "name": {
+        "en": "Jingan",
+        "zh": "景安",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 383,
+        "y": 1045
+      },
+      "lines": [
+        "ORANGE",
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["O03"],
+      "name": {
+        "en": "Yongan Market",
+        "zh": "永安市場",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 383,
+        "y": 992
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O04"],
+      "name": {
+        "en": "Dingxi",
+        "zh": "頂溪",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 383,
+        "y": 951
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O07", "BL14"],
+      "name": {
+        "en": "Zhongxiao Xinsheng",
+        "zh": "忠孝新生",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 495,
+        "y": 757
+      },
+      "lines": [
+        "ORANGE",
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["O09"],
+      "name": {
+        "en": "Xintian Temple",
+        "zh": "行天宮",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 495,
+        "y": 616
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O10"],
+      "name": {
+        "en": "Zhongshan Elementary School",
+        "zh": "中山國小",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 461,
+        "y": 584
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O12"],
+      "name": {
+        "en": "Daqiaotou",
+        "zh": "大橋頭",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 322,
+        "y": 584
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O13"],
+      "name": {
+        "en": "Taipei Bridge",
+        "zh": "台北橋",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 244,
+        "y": 617
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O14"],
+      "name": {
+        "en": "Cailiao",
+        "zh": "菜寮",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 209,
+        "y": 655
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O15"],
+      "name": {
+        "en": "Sanchong",
+        "zh": "三重",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 172,
+        "y": 692
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O16"],
+      "name": {
+        "en": "Xianse Temple",
+        "zh": "先嗇宮",
+        "anchor": "top-left"
+      },
+      "pos": {
+        "x": 135,
+        "y": 731
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O17", "Y18"],
+      "name": {
+        "en": "Touqianzhuang",
+        "zh": "頭前庄",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 92,
+        "y": 776
+      },
+      "lines": [
+        "ORANGE",
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["O18"],
+      "name": {
+        "en": "Xinzhuang",
+        "zh": "新莊",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 40,
+        "y": 829
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O19"],
+      "name": {
+        "en": "Fu Jen University",
+        "zh": "輔大",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 40,
+        "y": 877
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O20"],
+      "name": {
+        "en": "Danfeng",
+        "zh": "丹鳳",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 40,
+        "y": 924
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O21"],
+      "name": {
+        "en": "Huilong",
+        "zh": "迴籠",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 40,
+        "y": 972
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O50"],
+      "name": {
+        "en": "Sanchong Elementary School",
+        "zh": "三重國小",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 244,
+        "y": 549
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O51"],
+      "name": {
+        "en": "Sanhe Junior High School",
+        "zh": "三和國中",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 212,
+        "y": 512
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O52"],
+      "name": {
+        "en": "St. Ignatlus Hight School",
+        "zh": "徐匯中學",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 190,
+        "y": 466
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O53"],
+      "name": {
+        "en": "Sanmin Senior High School",
+        "zh": "三民高中",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 190,
+        "y": 415
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["O54"],
+      "name": {
+        "en": "Luzhou",
+        "zh": "蘆洲",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 190,
+        "y": 367
+      },
+      "lines": [
+        "ORANGE"
+      ]
+    },
+    {
+      "stationId": ["BL01"],
+      "name": {
+        "en": "Dingpu",
+        "zh": "頂埔",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 196,
+        "y": 1189
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL02"],
+      "name": {
+        "en": "Yongning",
+        "zh": "永寧",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 196,
+        "y": 1142
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL03"],
+      "name": {
+        "en": "Tucheng",
+        "zh": "土城",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 196,
+        "y": 1096
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL04"],
+      "name": {
+        "en": "Haishan",
+        "zh": "海山",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 196,
+        "y": 1050
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL05"],
+      "name": {
+        "en": "Far Eastern Hospital",
+        "zh": "亞東醫院",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 196,
+        "y": 1003
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL06"],
+      "name": {
+        "en": "Fuzhong",
+        "zh": "府中",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 196,
+        "y": 957
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL07"],
+      "name": {
+        "en": "Banqiao",
+        "zh": "板橋",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 196,
+        "y": 907
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL08"],
+      "name": {
+        "en": "Xinpu",
+        "zh": "新埔",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 196,
+        "y": 854
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL09"],
+      "name": {
+        "en": "Jiangzioui",
+        "zh": "江子翠",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 196,
+        "y": 805
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL10"],
+      "name": {
+        "en": "Longshan Temple",
+        "zh": "龍山寺",
+        "anchor": "top-left"
+      },
+      "pos": {
+        "x": 239,
+        "y": 757
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL13"],
+      "name": {
+        "en": "Shandao Temple",
+        "zh": "善導寺",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 445,
+        "y": 757
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL15", "BR10"],
+      "name": {
+        "en": "Zhongxiao Fuxing",
+        "zh": "忠孝復興",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 592,
+        "y": 757
+      },
+      "lines": [
+        "BLUE",
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BL16"],
+      "name": {
+        "en": "Zhongxiao Dunhua",
+        "zh": "忠孝敦化",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 653,
+        "y": 757
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL17"],
+      "name": {
+        "en": "Sun Yat-Sen Memorial Hall",
+        "zh": "國父紀念館",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 705,
+        "y": 757
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL18"],
+      "name": {
+        "en": "Taipei City Hall",
+        "zh": "市政府",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 758,
+        "y": 757
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL19"],
+      "name": {
+        "en": "Yongchun",
+        "zh": "永春",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 809,
+        "y": 757
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL20"],
+      "name": {
+        "en": "Houshanpi",
+        "zh": "後山埤",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 863,
+        "y": 757
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL21"],
+      "name": {
+        "en": "Kunyang",
+        "zh": "昆陽",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 899,
+        "y": 722
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL22"],
+      "name": {
+        "en": "Nangang",
+        "zh": "南港",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 899,
+        "y": 674
+      },
+      "lines": [
+        "BLUE"
+      ]
+    },
+    {
+      "stationId": ["BL23", "BR24"],
+      "name": {
+        "en": "Taipei Nangang Exhibition Center",
+        "zh": "南港展覽館",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 899,
+        "y": 620
+      },
+      "lines": [
+        "BLUE",
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR01"],
+      "name": {
+        "en": "Taipei Zoo",
+        "zh": "動物園",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 817,
+        "y": 1073
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR02"],
+      "name": {
+        "en": "Muzha",
+        "zh": "木柵",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 768,
+        "y": 1073
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR03"],
+      "name": {
+        "en": "Wanfang Community",
+        "zh": "萬芳社區",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 728,
+        "y": 1046
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR04"],
+      "name": {
+        "en": "Wanfang Hospital",
+        "zh": "萬芳醫院",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 728,
+        "y": 999
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR05"],
+      "name": {
+        "en": "Xinhai",
+        "zh": "辛亥",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 728,
+        "y": 951
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR06"],
+      "name": {
+        "en": "Linguang",
+        "zh": "麟光",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 691,
+        "y": 917
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR07"],
+      "name": {
+        "en": "Liuzhangli",
+        "zh": "六張犁",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 639,
+        "y": 917
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR08"],
+      "name": {
+        "en": "Technology Building",
+        "zh": "科技大樓",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 592,
+        "y": 897
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR12"],
+      "name": {
+        "en": "Zhongshan Junior High School",
+        "zh": "中山國中",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 592,
+        "y": 613
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR13"],
+      "name": {
+        "en": "Songshan Airport",
+        "zh": "松山機場",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 592,
+        "y": 568
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR14"],
+      "name": {
+        "en": "Dazhi",
+        "zh": "大直",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 592,
+        "y": 519
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR15"],
+      "name": {
+        "en": "Jiannan Rd.",
+        "zh": "劍南路",
+        "anchor": "top-left"
+      },
+      "pos": {
+        "x": 592,
+        "y": 476
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR16"],
+      "name": {
+        "en": "Xihu",
+        "zh": "西湖",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 646,
+        "y": 467
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR17"],
+      "name": {
+        "en": "Gangqian",
+        "zh": "港墘",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 697,
+        "y": 467
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR18"],
+      "name": {
+        "en": "Wende",
+        "zh": "文德",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 745,
+        "y": 467
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR19"],
+      "name": {
+        "en": "Neihu",
+        "zh": "內湖",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 793,
+        "y": 467
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR20"],
+      "name": {
+        "en": "Dahu Park",
+        "zh": "大湖公園",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 847,
+        "y": 467
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR21"],
+      "name": {
+        "en": "Huzhou",
+        "zh": "葫洲",
+        "anchor": "top-right"
+      },
+      "pos": {
+        "x": 899,
+        "y": 476
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR22"],
+      "name": {
+        "en": "Donghu",
+        "zh": "東湖",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 899,
+        "y": 521
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["BR23"],
+      "name": {
+        "en": "Nangang Software Park",
+        "zh": "南港軟體園區",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 899,
+        "y": 567
+      },
+      "lines": [
+        "BROWN"
+      ]
+    },
+    {
+      "stationId": ["Y08"],
+      "name": {
+        "en": "Shisizhang",
+        "zh": "十四張",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 517,
+        "y": 1086
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y09"],
+      "name": {
+        "en": "Xiulang Bridge",
+        "zh": "秀朗橋",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 477,
+        "y": 1067
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y10"],
+      "name": {
+        "en": "Jingping",
+        "zh": "景平",
+        "anchor": "top"
+      },
+      "pos": {
+        "x": 439,
+        "y": 1045
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y12"],
+      "name": {
+        "en": "Zhonghe",
+        "zh": "中和",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 322,
+        "y": 1045
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y13"],
+      "name": {
+        "en": "Qiaohe",
+        "zh": "橋和",
+        "anchor": "bottom"
+      },
+      "pos": {
+        "x": 271,
+        "y": 1045
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y14"],
+      "name": {
+        "en": "Zhongyuan",
+        "zh": "中原",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 260,
+        "y": 993
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y15"],
+      "name": {
+        "en": "Banxin",
+        "zh": "板新",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 260,
+        "y": 944
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y16"],
+      "name": {
+        "en": "Banqiao",
+        "zh": "板橋",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 222,
+        "y": 906
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y17"],
+      "name": {
+        "en": "Xinpu Minsheng",
+        "zh": "新埔民生",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 170,
+        "y": 854
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y19"],
+      "name": {
+        "en": "Xingfu",
+        "zh": "幸福",
+        "anchor": "left"
+      },
+      "pos": {
+        "x": 57,
+        "y": 734
+      },
+      "lines": [
+        "YELLOW"
+      ]
+    },
+    {
+      "stationId": ["Y20"],
+      "name": {
+        "en": "New Taipei Industrial Park",
+        "zh": "新北產業園區",
+        "anchor": "right"
+      },
+      "pos": {
+        "x": 57,
+        "y": 681
+      },
+      "lines": [
+        "YELLOW"
       ]
     }
   ]

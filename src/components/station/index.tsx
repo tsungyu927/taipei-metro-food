@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { stationColor, stationTextPosConvert, textAnchorConvert } from 'utils/mapConfig'
 
 interface StationProps {
-  stationId: string
+  stationId: string[]
   name: {
     en: string
     zh: string
@@ -25,11 +25,11 @@ const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize }: Stat
   }
 
   const onMouseEnter = () => {
-    console.log(`Enter: ${name.zh}`)
+    // console.log(`Enter: ${name.zh}`)
   }
 
   const onMouseLeave = () => {
-    console.log(`Leave: ${name.zh}`)
+    // console.log(`Leave: ${name.zh}`)
   }
 
   const onClick = () => {
@@ -38,6 +38,7 @@ const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize }: Stat
 
   return (
     <g
+      style={{ cursor: 'pointer' }}
       onMouseEnter={() => onMouseEnter()}
       onMouseLeave={() => onMouseLeave()}
       onClick={() => onClick()}
@@ -48,7 +49,6 @@ const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize }: Stat
         r={r}
         style={circleStyle}
       />
-      <text x={x} y={y} fontSize={fontSize} fontFamily="TaipeiSans" textAnchor="middle" dy=".3em">{stationId}</text>
       <text
         x={stationTextPos.x}
         y={stationTextPos.y}

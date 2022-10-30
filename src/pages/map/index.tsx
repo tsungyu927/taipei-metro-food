@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
+import { v4 as uuidv4 } from 'uuid'
 import { TransformWrapper, TransformComponent } from '@pronestor/react-zoom-pan-pinch'
 import Station from 'components/station'
 import stationData from 'data/station.json'
@@ -50,14 +51,14 @@ const Map = () => {
   const svgStyle = {
     width: size.width,
     height: size.height,
-    background: '#E7E7E7'
+    background: '#fff'
   }
 
   const stations = useMemo(() =>
     stationData.stations.map((station: MapDataProps) => (
       <Station
-        key={station.id}
-        stationId={station.id}
+        key={uuidv4()}
+        stationId={station.stationId}
         name={station.name}
         x={station.pos.x * scale}
         y={station.pos.y * scale}

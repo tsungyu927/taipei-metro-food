@@ -31,25 +31,26 @@ export const stationColor = (line: string[]) => {
 }
 
 export const stationTextPosConvert = (pos: { x: number, y: number }, anchor: string) => {
-  const gap = DEFAULT.RADIUS + 5
+  const gapX = DEFAULT.RADIUS + 3
+  const gapY = DEFAULT.RADIUS + 8
 
   switch (anchor) {
     case ANCHOR.TOP:
-      return { x: pos.x, y: pos.y - gap }
+      return { x: pos.x, y: pos.y - gapY }
     case ANCHOR.BOTTOM:
-      return { x: pos.x, y: pos.y + gap }
+      return { x: pos.x, y: pos.y + gapY }
     case ANCHOR.TOP_RIGHT:
-      return { x: pos.x + gap, y: pos.y - gap }
+      return { x: pos.x + gapX, y: pos.y - gapY }
     case ANCHOR.RIGHT:
-      return { x: pos.x + gap, y: pos.y }
+      return { x: pos.x + gapX, y: pos.y }
     case ANCHOR.BOTTOM_RIGHT:
-      return { x: pos.x + gap, y: pos.y + gap }
+      return { x: pos.x + gapX, y: pos.y + gapY }
     case ANCHOR.TOP_LEFT:
-      return { x: pos.x - gap, y: pos.y - gap }
+      return { x: pos.x - gapX, y: pos.y - gapY }
     case ANCHOR.LEFT:
-      return { x: pos.x - gap, y: pos.y }
+      return { x: pos.x - gapX, y: pos.y }
     case ANCHOR.BOTTOM_LEFT:
-      return { x: pos.x - gap, y: pos.y + gap }
+      return { x: pos.x - gapX, y: pos.y + gapY }
     default:
       return { x: pos.x, y: pos.y }
   }

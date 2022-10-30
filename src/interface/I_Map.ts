@@ -20,7 +20,7 @@ export enum ANCHOR {
 }
 
 export interface MapDataProps {
-  id: string
+  stationId: string[]
   name: {
     en: string
     zh: string
