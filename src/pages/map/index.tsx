@@ -1,10 +1,14 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import { TransformWrapper, TransformComponent } from '@pronestor/react-zoom-pan-pinch'
+
+import Connector from 'components/connector'
 import Station from 'components/station'
+
+import connectorData from 'data/connector.json'
 import stationData from 'data/station.json'
 
-import { MapDataProps } from 'interface/I_Map'
+import { ConnectorDataProps, MapDataProps } from 'interface/I_Map'
 import { DEFAULT } from 'utils/mapConfig'
 
 const Map = () => {
@@ -54,6 +58,19 @@ const Map = () => {
     background: '#fff'
   }
 
+  const connector = useMemo(() =>
+    connectorData.connector.map((item: ConnectorDataProps) => (
+      <Connector
+        key={uuidv4()}
+        line={item.line}
+        path={item.path}
+        connected={item.connected}
+        strokeWidth={DEFAULT.CONNECTOR_STROKEWIDTH * scale}
+        scale={scale}
+      />
+    ))
+  , [scale])
+
   const stations = useMemo(() =>
     stationData.stations.map((station: MapDataProps) => (
       <Station
@@ -66,6 +83,7 @@ const Map = () => {
         strokeWidth={DEFAULT.STROKEWIDTH * scale}
         line={station.lines}
         fontSize={DEFAULT.FONTSIZE * scale}
+        scale={scale}
       />
     ))
   , [scale])
@@ -75,6 +93,7 @@ const Map = () => {
       <TransformWrapper>
         <TransformComponent>
           <svg style={svgStyle}>
+            <g id="connector">{connector}</g>
             <g id="stations">{stations}</g>
           </svg>
         </TransformComponent>

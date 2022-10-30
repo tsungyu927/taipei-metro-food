@@ -14,10 +14,11 @@ interface StationProps {
   strokeWidth: number
   line: string[]
   fontSize: number
+  scale: number
 }
 
-const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize }: StationProps) => {
-  const stationTextPos = useMemo<{ x: number, y: number }>(() => stationTextPosConvert({ x, y }, name.anchor), [x, y, name.anchor])
+const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize, scale }: StationProps) => {
+  const stationTextPos = useMemo<{ x: number, y: number }>(() => stationTextPosConvert({ x, y }, name.anchor, scale), [x, y, name.anchor])
   const circleStyle = {
     stroke: stationColor(line),
     strokeWidth,

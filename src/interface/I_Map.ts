@@ -32,3 +32,18 @@ export interface MapDataProps {
   }
   lines: string[]
 }
+
+export interface ConnectorDataProps {
+  line: string
+  path: Array<{
+    command: string
+    pos: Array<{
+      x: number
+      y: number
+    }>
+  }>
+  connected: {
+    from: string
+    to: string
+  }
+}

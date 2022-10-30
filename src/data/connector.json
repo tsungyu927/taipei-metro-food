@@ -1,0 +1,3875 @@
+{
+  "city": {
+    "en": "Taipei",
+    "zh": "台北"
+  },
+  "size": {
+    "width": 960,
+    "height": 1286
+  },
+  "connector": [
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1225
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1183
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G01",
+        "to": "G02"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1183
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1140
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G02",
+        "to": "G03"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1140
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1086
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G03",
+        "to": "G04"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1086
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1038
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G04",
+        "to": "G05"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1038
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1030
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 541,
+              "y": 998
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G05",
+        "to": "G06"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 541,
+              "y": 998
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 509,
+              "y": 964
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G06",
+        "to": "G07"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 509,
+              "y": 964
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 477,
+              "y": 931
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G07",
+        "to": "G08"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 477,
+              "y": 931
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 439,
+              "y": 893
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G08",
+        "to": "G09"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 439,
+              "y": 893
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G09",
+        "to": "G10"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 323,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G10",
+        "to": "G11"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 323,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 323,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G11",
+        "to": "G12"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 323,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 323,
+              "y": 707
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G12",
+        "to": "G13"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 323,
+              "y": 707
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 323,
+              "y": 694
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 323,
+              "y": 685
+            },
+            {
+              "x": 332,
+              "y": 674
+            },
+            {
+              "x": 343,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G13",
+        "to": "G14"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 495,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G14",
+        "to": "G15"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 495,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G15",
+        "to": "G16"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 659,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G16",
+        "to": "G17"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 659,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 709,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G17",
+        "to": "G18"
+      }
+    },
+    {
+      "line": "GREEN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 709,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 766,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "G18",
+        "to": "G19"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 764,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 712,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R02",
+        "to": "R03"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 712,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 659,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R03",
+        "to": "R04"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 659,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R04",
+        "to": "R05"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 538,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R05",
+        "to": "R06"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 538,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 483,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R06",
+        "to": "R07"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 483,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R07",
+        "to": "R08"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 800
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R08",
+        "to": "R09"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 800
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R09",
+        "to": "R10"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R10",
+        "to": "R11"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 628
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R11",
+        "to": "R12"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 628
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 584
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R12",
+        "to": "R13"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 522
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R13",
+        "to": "R14"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 522
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 477
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R14",
+        "to": "R15"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 477
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 432
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R15",
+        "to": "R16"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 432
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 386
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R16",
+        "to": "R17"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 386
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 341
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R17",
+        "to": "R18"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 341
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 296
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R18",
+        "to": "R19"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 296
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 286
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 394,
+              "y": 275
+            },
+            {
+              "x": 386,
+              "y": 266
+            },
+            {
+              "x": 375,
+              "y": 266
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 359,
+              "y": 266
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R19",
+        "to": "R20"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 359,
+              "y": 266
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 311,
+              "y": 266
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R20",
+        "to": "R21"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 311,
+              "y": 266
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 267,
+              "y": 266
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R21",
+        "to": "R22"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 267,
+              "y": 266
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 221,
+              "y": 266
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R22",
+        "to": "R23"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 221,
+              "y": 266
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 177,
+              "y": 266
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R23",
+        "to": "R24"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 177,
+              "y": 266
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 172,
+              "y": 266
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 161,
+              "y": 266
+            },
+            {
+              "x": 153,
+              "y": 262
+            },
+            {
+              "x": 153,
+              "y": 249
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 153,
+              "y": 234
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R24",
+        "to": "R25"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 153,
+              "y": 234
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 153,
+              "y": 190
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R25",
+        "to": "R26"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 153,
+              "y": 190
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 153,
+              "y": 141
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R26",
+        "to": "R27"
+      }
+    },
+    {
+      "line": "RED",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 153,
+              "y": 141
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 153,
+              "y": 92
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "R27",
+        "to": "R28"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 383,
+              "y": 1090
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 383,
+              "y": 1045
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O01",
+        "to": "O02"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 383,
+              "y": 1045
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 383,
+              "y": 992
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O02",
+        "to": "O03"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 383,
+              "y": 992
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 383,
+              "y": 951
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O03",
+        "to": "O04"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 383,
+              "y": 951
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 439,
+              "y": 893
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O04",
+        "to": "O05"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 439,
+              "y": 893
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 483,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O05",
+        "to": "O06"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 483,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "Q",
+          "pos": [
+            {
+              "x": 495,
+              "y": 840
+            },
+            {
+              "x": 495,
+              "y": 829
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 495,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O06",
+        "to": "O07"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 495,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 495,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O07",
+        "to": "O08"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 495,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 495,
+              "y": 616
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O08",
+        "to": "O09"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 495,
+              "y": 616
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 495,
+              "y": 604
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 495,
+              "y": 594
+            },
+            {
+              "x": 485,
+              "y": 584
+            },
+            {
+              "x": 477,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 461,
+              "y": 584
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O09",
+        "to": "O10"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 461,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 584
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O10",
+        "to": "O11"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 322,
+              "y": 584
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O11",
+        "to": "O12"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 322,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 300,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "Q",
+          "pos": [
+            {
+              "x": 274,
+              "y": 587
+            },
+            {
+              "x": 258,
+              "y": 602
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 244,
+              "y": 617
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O12",
+        "to": "O13"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 244,
+              "y": 617
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 209,
+              "y": 655
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O13",
+        "to": "O14"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 209,
+              "y": 655
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 172,
+              "y": 692
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O14",
+        "to": "O15"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 172,
+              "y": 692
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 135,
+              "y": 731
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O15",
+        "to": "O16"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 135,
+              "y": 731
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 92,
+              "y": 776
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O16",
+        "to": "O17"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 92,
+              "y": 776
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 40,
+              "y": 829
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O17",
+        "to": "O18"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 40,
+              "y": 829
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 40,
+              "y": 877
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O18",
+        "to": "O19"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 40,
+              "y": 877
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 40,
+              "y": 924
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O19",
+        "to": "O20"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 40,
+              "y": 924
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 40,
+              "y": 972
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O20",
+        "to": "O21"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 322,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 300,
+              "y": 584
+            }
+          ]
+        },
+        {
+          "command": "Q",
+          "pos": [
+            {
+              "x": 274,
+              "y": 583
+            },
+            {
+              "x": 258,
+              "y": 565
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 244,
+              "y": 549
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O12",
+        "to": "O50"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 244,
+              "y": 549
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 212,
+              "y": 512
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O50",
+        "to": "O51"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 212,
+              "y": 512
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 200,
+              "y": 500
+            }
+          ]
+        },
+        {
+          "command": "Q",
+          "pos": [
+            {
+              "x": 190,
+              "y": 491
+            },
+            {
+              "x": 190,
+              "y": 485
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 190,
+              "y": 466
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O51",
+        "to": "O52"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 190,
+              "y": 466
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 190,
+              "y": 415
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O52",
+        "to": "O53"
+      }
+    },
+    {
+      "line": "ORANGE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 190,
+              "y": 415
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 190,
+              "y": 367
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "O53",
+        "to": "O54"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1189
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1142
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL01",
+        "to": "BL02"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1142
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1096
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL02",
+        "to": "BL03"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1096
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1050
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL03",
+        "to": "BL04"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1050
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1003
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL04",
+        "to": "BL05"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 1003
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 957
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL05",
+        "to": "BL06"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 957
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 907
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL06",
+        "to": "BL07"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 907
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 854
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL07",
+        "to": "BL08"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 854
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 805
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL08",
+        "to": "BL09"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 196,
+              "y": 805
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 196,
+              "y": 776
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 196,
+              "y": 765
+            },
+            {
+              "x": 203,
+              "y": 757
+            },
+            {
+              "x": 215,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 239,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL09",
+        "to": "BL10"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 239,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 323,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL10",
+        "to": "BL11"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 323,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 394,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL11",
+        "to": "BL12"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 394,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 445,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL12",
+        "to": "BL13"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 445,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 495,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL13",
+        "to": "BL14"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 495,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL14",
+        "to": "BL15"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 653,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL15",
+        "to": "BL16"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 653,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 705,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL16",
+        "to": "BL17"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 705,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 758,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL17",
+        "to": "BL18"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 758,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 809,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL18",
+        "to": "BL19"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 809,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 863,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL19",
+        "to": "BL20"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 863,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 879,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 888,
+              "y": 757
+            },
+            {
+              "x": 899,
+              "y": 747
+            },
+            {
+              "x": 899,
+              "y": 737
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 899,
+              "y": 722
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL20",
+        "to": "BL21"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 899,
+              "y": 722
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 899,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL21",
+        "to": "BL22"
+      }
+    },
+    {
+      "line": "BLUE",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 899,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 899,
+              "y": 620
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BL22",
+        "to": "BL23"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 817,
+              "y": 1073
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 768,
+              "y": 1073
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR01",
+        "to": "BR02"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 768,
+              "y": 1073
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 749,
+              "y": 1073
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 737,
+              "y": 1073
+            },
+            {
+              "x": 728,
+              "y": 1063
+            },
+            {
+              "x": 728,
+              "y": 1056
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 728,
+              "y": 1046
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR02",
+        "to": "BR03"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 728,
+              "y": 1046
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 728,
+              "y": 999
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR03",
+        "to": "BR04"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 728,
+              "y": 999
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 728,
+              "y": 951
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR04",
+        "to": "BR05"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 728,
+              "y": 951
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 729,
+              "y": 939
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 728,
+              "y": 926
+            },
+            {
+              "x": 719,
+              "y": 917
+            },
+            {
+              "x": 710,
+              "y": 917
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 691,
+              "y": 917
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR05",
+        "to": "BR06"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 691,
+              "y": 917
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 639,
+              "y": 917
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR06",
+        "to": "BR07"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 639,
+              "y": 917
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 607,
+              "y": 917
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 596,
+              "y": 917
+            },
+            {
+              "x": 592,
+              "y": 913
+            },
+            {
+              "x": 592,
+              "y": 906
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 897
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR07",
+        "to": "BR08"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 897
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 846
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR08",
+        "to": "BR09"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 846
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 757
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR09",
+        "to": "BR10"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 757
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 674
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR10",
+        "to": "BR11"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 674
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 613
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR11",
+        "to": "BR12"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 613
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 568
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR12",
+        "to": "BR13"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 568
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 519
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR13",
+        "to": "BR14"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 519
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 592,
+              "y": 476
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR14",
+        "to": "BR15"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 592,
+              "y": 476
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 596,
+              "y": 474
+            },
+            {
+              "x": 598,
+              "y": 468
+            },
+            {
+              "x": 610,
+              "y": 467
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 646,
+              "y": 467
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR15",
+        "to": "BR16"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 646,
+              "y": 467
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 697,
+              "y": 467
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR16",
+        "to": "BR17"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 697,
+              "y": 467
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 745,
+              "y": 467
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR17",
+        "to": "BR18"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 745,
+              "y": 467
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 793,
+              "y": 467
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR18",
+        "to": "BR19"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 793,
+              "y": 467
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 847,
+              "y": 467
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR19",
+        "to": "BR20"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 847,
+              "y": 467
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 880,
+              "y": 467
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 881,
+              "y": 467
+            },
+            {
+              "x": 893,
+              "y": 468
+            },
+            {
+              "x": 895,
+              "y": 474
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 899,
+              "y": 476
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR20",
+        "to": "BR21"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 899,
+              "y": 476
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 899,
+              "y": 521
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR21",
+        "to": "BR22"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 899,
+              "y": 521
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 899,
+              "y": 567
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR22",
+        "to": "BR23"
+      }
+    },
+    {
+      "line": "BROWN",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 899,
+              "y": 567
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 899,
+              "y": 620
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "BR23",
+        "to": "BR24"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 569,
+              "y": 1086
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 518,
+              "y": 1086
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y07",
+        "to": "Y08"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 517,
+              "y": 1086
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 502,
+              "y": 1086
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 494,
+              "y": 1086
+            },
+            {
+              "x": 487,
+              "y": 1081
+            },
+            {
+              "x": 482,
+              "y": 1075
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 477,
+              "y": 1067
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y08",
+        "to": "Y09"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 477,
+              "y": 1067
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 464,
+              "y": 1050
+            },
+            {
+              "x": 458,
+              "y": 1045
+            },
+            {
+              "x": 453,
+              "y": 1045
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 452,
+              "y": 1045
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 439,
+              "y": 1045
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y09",
+        "to": "Y10"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 439,
+              "y": 1045
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 383,
+              "y": 1045
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y10",
+        "to": "Y11"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 383,
+              "y": 1045
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 322,
+              "y": 1045
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y11",
+        "to": "Y12"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 322,
+              "y": 1045
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 271,
+              "y": 1045
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y12",
+        "to": "Y13"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 271,
+              "y": 1045
+            }
+          ]
+        },
+        {
+          "command": "C",
+          "pos": [
+            {
+              "x": 266,
+              "y": 1045
+            },
+            {
+              "x": 260,
+              "y": 1037
+            },
+            {
+              "x": 260,
+              "y": 1029
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 260,
+              "y": 993
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y13",
+        "to": "Y14"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 260,
+              "y": 993
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 260,
+              "y": 944
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y14",
+        "to": "Y15"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 260,
+              "y": 944
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 222,
+              "y": 906
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y15",
+        "to": "Y16"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 222,
+              "y": 906
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 170,
+              "y": 854
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y16",
+        "to": "Y17"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 170,
+              "y": 854
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 92,
+              "y": 776
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y17",
+        "to": "Y18"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 92,
+              "y": 776
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 57,
+              "y": 734
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y18",
+        "to": "Y19"
+      }
+    },
+    {
+      "line": "YELLOW",
+      "path": [
+        {
+          "command": "M",
+          "pos": [
+            {
+              "x": 57,
+              "y": 734
+            }
+          ]
+        },
+        {
+          "command": "L",
+          "pos": [
+            {
+              "x": 57,
+              "y": 681
+            }
+          ]
+        }
+      ],
+      "connected": {
+        "from": "Y19",
+        "to": "Y20"
+      }
+    }
+  ]
+}

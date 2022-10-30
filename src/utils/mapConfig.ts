@@ -3,6 +3,7 @@ import { LINE, ANCHOR } from 'interface/I_Map'
 export enum DEFAULT {
   RADIUS = 10,
   STROKEWIDTH = 3,
+  CONNECTOR_STROKEWIDTH = 8,
   FONTSIZE = 12
 }
 
@@ -30,9 +31,9 @@ export const stationColor = (line: string[]) => {
   }
 }
 
-export const stationTextPosConvert = (pos: { x: number, y: number }, anchor: string) => {
-  const gapX = DEFAULT.RADIUS + 3
-  const gapY = DEFAULT.RADIUS + 8
+export const stationTextPosConvert = (pos: { x: number, y: number }, anchor: string, scale: number) => {
+  const gapX = (DEFAULT.RADIUS + 3) * scale
+  const gapY = (DEFAULT.RADIUS + 8) * scale
 
   switch (anchor) {
     case ANCHOR.TOP:
