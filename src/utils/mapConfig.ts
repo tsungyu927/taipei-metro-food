@@ -1,13 +1,15 @@
 import { LINE, ANCHOR } from 'interface/I_Map'
 
 export enum DEFAULT {
+  BACKGROUND_COLOR = '#FFFFFB',
   RADIUS = 10,
   STROKEWIDTH = 3,
   CONNECTOR_STROKEWIDTH = 8,
   FONTSIZE = 12,
+  FONT_COLOR = '#000',
 
   SELECTED_RADIUS = 6,
-  SELECTED_DOT_COLOR = '#00D9FF'
+  SELECTED_DOT_COLOR = '#2E5C6E'
 }
 
 export const stationColor = (line: string[]) => {
@@ -38,23 +40,25 @@ export const stationTextPosConvert = (pos: { x: number, y: number }, anchor: str
   const gapX = (DEFAULT.RADIUS + 3) * scale
   const gapY = (DEFAULT.RADIUS + 8) * scale
 
+  const offset = 3
+
   switch (anchor) {
     case ANCHOR.TOP:
       return { x: pos.x, y: pos.y - gapY }
     case ANCHOR.BOTTOM:
       return { x: pos.x, y: pos.y + gapY }
     case ANCHOR.TOP_RIGHT:
-      return { x: pos.x + gapX, y: pos.y - gapY }
+      return { x: pos.x + gapX - offset, y: pos.y - gapY + offset }
     case ANCHOR.RIGHT:
       return { x: pos.x + gapX, y: pos.y }
     case ANCHOR.BOTTOM_RIGHT:
-      return { x: pos.x + gapX, y: pos.y + gapY }
+      return { x: pos.x + gapX - offset, y: pos.y + gapY - offset }
     case ANCHOR.TOP_LEFT:
-      return { x: pos.x - gapX, y: pos.y - gapY }
+      return { x: pos.x - gapX + offset, y: pos.y - gapY + offset }
     case ANCHOR.LEFT:
       return { x: pos.x - gapX, y: pos.y }
     case ANCHOR.BOTTOM_LEFT:
-      return { x: pos.x - gapX, y: pos.y + gapY }
+      return { x: pos.x - gapX + offset, y: pos.y + gapY - offset }
     default:
       return { x: pos.x, y: pos.y }
   }

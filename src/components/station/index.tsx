@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { stationColor, stationTextPosConvert, textAnchorConvert } from 'utils/mapConfig'
+import { stationColor, stationTextPosConvert, textAnchorConvert, DEFAULT } from 'utils/mapConfig'
 import { ClickStationProps } from 'interface/I_Map'
 
 interface StationProps {
@@ -68,6 +68,7 @@ const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize, scale,
         fontFamily="TaipeiSans"
         textAnchor={textAnchorConvert(name.anchor)}
         dy=".3em"
+        fill={DEFAULT.FONT_COLOR as string}
       >
           {name.zh}
       </text>

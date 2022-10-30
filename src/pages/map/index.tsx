@@ -12,7 +12,11 @@ import stationData from 'data/station.json'
 import { ConnectorDataProps, MapDataProps, ClickStationProps } from 'interface/I_Map'
 import { DEFAULT } from 'utils/mapConfig'
 
-const Map = () => {
+interface MapProps {
+  handleClickStation: (info: ClickStationProps) => void
+}
+
+const Map = ({ handleClickStation }: MapProps) => {
   // the aspect of 【svg】
   const aspect = useMemo(() => stationData.size.width / stationData.size.height, [])
   // the size of 【svg】
@@ -34,6 +38,8 @@ const Map = () => {
 
   const onClickStation = (info: ClickStationProps) => {
     setClickedStation(info)
+    // return station info to parent
+    handleClickStation(info)
   }
 
   useEffect(() => {
@@ -61,7 +67,7 @@ const Map = () => {
   const svgStyle = {
     width: size.width,
     height: size.height,
-    background: '#fff'
+    background: DEFAULT.BACKGROUND_COLOR
   }
 
   const connector = useMemo(() =>

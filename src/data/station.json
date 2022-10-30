@@ -411,7 +411,7 @@
       "name": {
         "en": "Taipei Main Station",
         "zh": "台北車站",
-        "anchor": "top-right"
+        "anchor": "top-left"
       },
       "pos": {
         "x": 394,
@@ -1634,7 +1634,7 @@
       "name": {
         "en": "Xiulang Bridge",
         "zh": "秀朗橋",
-        "anchor": "top"
+        "anchor": "top-right"
       },
       "pos": {
         "x": 477,

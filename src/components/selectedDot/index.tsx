@@ -18,7 +18,7 @@ const SelectedDot = ({ x, y, r, scale }: SelectedDotProps) => {
         fill={DEFAULT.SELECTED_DOT_COLOR as string}
         opacity={0.75}
       >
-        <animate attributeName="r" from={r} to={r * 3} dur="1.5s" repeatCount="indefinite" />
+        <animate attributeName="r" from={r} to={r * 10} dur="1.5s" repeatCount="indefinite" />
         <animate attributeName="fill-opacity" from={0.75} to={0} dur="1.5s" repeatCount="indefinite" />
       </circle>
       <circle
