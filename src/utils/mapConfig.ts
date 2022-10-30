@@ -4,7 +4,10 @@ export enum DEFAULT {
   RADIUS = 10,
   STROKEWIDTH = 3,
   CONNECTOR_STROKEWIDTH = 8,
-  FONTSIZE = 12
+  FONTSIZE = 12,
+
+  SELECTED_RADIUS = 6,
+  SELECTED_DOT_COLOR = '#00D9FF'
 }
 
 export const stationColor = (line: string[]) => {

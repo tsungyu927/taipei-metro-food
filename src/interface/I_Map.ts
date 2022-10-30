@@ -47,3 +47,13 @@ export interface ConnectorDataProps {
     to: string
   }
 }
+
+export interface ClickStationProps {
+  x: number
+  y: number
+  r: number
+  name: {
+    en: string
+    zh: string
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react'
 import { stationColor, stationTextPosConvert, textAnchorConvert } from 'utils/mapConfig'
+import { ClickStationProps } from 'interface/I_Map'
 
 interface StationProps {
   stationId: string[]
@@ -15,9 +16,10 @@ interface StationProps {
   line: string[]
   fontSize: number
   scale: number
+  handleClick: (info: ClickStationProps) => void
 }
 
-const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize, scale }: StationProps) => {
+const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize, scale, handleClick }: StationProps) => {
   const stationTextPos = useMemo<{ x: number, y: number }>(() => stationTextPosConvert({ x, y }, name.anchor, scale), [x, y, name.anchor])
   const circleStyle = {
     stroke: stationColor(line),
@@ -34,7 +36,16 @@ const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize, scale 
   }
 
   const onClick = () => {
-    console.log(`Click: ${name.zh}`)
+    // handle click event
+    handleClick({
+      x,
+      y,
+      r,
+      name: {
+        en: name.en,
+        zh: name.zh
+      }
+    })
   }
 
   return (
