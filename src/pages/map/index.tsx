@@ -13,46 +13,30 @@ import { ConnectorDataProps, MapDataProps, ClickStationProps } from 'interface/I
 import { DEFAULT } from 'utils/mapConfig'
 
 interface MapProps {
+  width: number
+  height: number
+  clickedStation?: ClickStationProps
   handleClickStation: (info: ClickStationProps) => void
 }
 
-const Map = ({ handleClickStation }: MapProps) => {
+const Map = ({
+  width,
+  height,
+  clickedStation,
+  handleClickStation
+}: MapProps) => {
   const ref = useRef<ReactZoomPanPinchRef | null>(null)
   // the aspect of 【svg】
   const aspect = useMemo(() => stationData.size.width / stationData.size.height, [])
   // the size of 【svg】
-  const [size, setSize] = useState({ width: 960, height: 1286 })
+  const size = useMemo(() => ({ width, height }), [width, height])
   // the scale of 【element】 in svg
   const [scale, setScale] = useState(1)
-  const [clickedStation, setClickedStation] = useState<ClickStationProps | undefined>(undefined)
-
-  const handleResize = () => {
-    const { innerWidth: windowWidth, innerHeight: windowHeight } = window
-    if (windowWidth < windowHeight) {
-      // Portrait (mobile)
-      setSize({ width: windowWidth, height: windowWidth / aspect })
-      return
-    }
-    // Landscape (computer)
-    setSize({ width: windowHeight * aspect, height: windowHeight })
-  }
 
   const onClickStation = (info: ClickStationProps) => {
-    setClickedStation(info)
     // return station info to parent
     handleClickStation(info)
   }
-
-  useEffect(() => {
-    // initial the svg size
-    handleResize()
-  }, [])
-
-  useEffect(() => {
-    // listen whether window size has changed
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
 
   useEffect(() => {
     // calculate the scale
@@ -140,6 +124,28 @@ const Map = ({ handleClickStation }: MapProps) => {
                 scale={scale}
               />
             )}
+            <g id="title">
+              <text
+                x={size.width - 50}
+                y={100}
+                fontSize={50}
+                fontFamily="TaipeiSans"
+                textAnchor="end"
+                fill={DEFAULT.FONT_COLOR as string}
+              >
+                台北捷運美食地圖
+              </text>
+              <text
+                x={size.width - 50}
+                y={150}
+                fontSize={25}
+                fontFamily="TaipeiSans"
+                textAnchor="end"
+                fill={DEFAULT.FONT_COLOR as string}
+              >
+                Version - 0.0.1
+              </text>
+            </g>
           </svg>
         </TransformComponent>
       </TransformWrapper>
