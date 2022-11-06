@@ -13,13 +13,14 @@ function Home () {
 
   const handleResize = () => {
     const { innerWidth: windowWidth, innerHeight: windowHeight } = window
+    const PADDING = 64
     if (windowWidth < windowHeight) {
       // Portrait (mobile)
       setMapSize({ width: windowWidth, height: windowWidth / aspect })
       return
     }
     // Landscape (computer)
-    setMapSize({ width: windowHeight * aspect, height: windowHeight })
+    setMapSize({ width: (windowHeight - PADDING) * aspect, height: windowHeight - PADDING })
   }
 
   useEffect(() => {
@@ -36,13 +37,18 @@ function Home () {
   console.log(mapSize)
 
   return (
-    <div className="relative w-screen h-screen flex justify-center items-center bg-[#E7E7E7]">
-      <Map
-        width={mapSize?.width}
-        height={mapSize?.height}
-        clickedStation={clickedStation}
-        handleClickStation={(info: ClickStationProps) => setClickedStation(info)}
-      />
+    <div className="p-8 relative w-full h-full flex justify-between items-center bg-bg-dark-secondary">
+      <div>
+        ...
+      </div>
+      <div className="w-fit h-fit rounded-2xl overflow-hidden">
+        <Map
+          width={mapSize?.width}
+          height={mapSize?.height}
+          clickedStation={clickedStation}
+          handleClickStation={(info: ClickStationProps) => setClickedStation(info)}
+        />
+      </div>
     </div>
   )
 }
