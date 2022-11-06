@@ -24,7 +24,7 @@ const Station = ({ stationId, name, x, y, r, strokeWidth, line, fontSize, scale,
   const circleStyle = {
     stroke: stationColor(line),
     strokeWidth,
-    fill: '#fff'
+    fill: DEFAULT.STATION_COLOR as string
   }
 
   const onMouseEnter = () => {

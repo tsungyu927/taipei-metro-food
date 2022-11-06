@@ -1,15 +1,22 @@
 import { LINE, ANCHOR } from 'interface/I_Map'
 
 export enum DEFAULT {
-  BACKGROUND_COLOR = '#FFFFFB',
+  BACKGROUND_COLOR = '#282828',
+
+  // station
   RADIUS = 10,
+  STATION_COLOR = '#FFFFF4',
+
+  // connector line
   STROKEWIDTH = 3,
   CONNECTOR_STROKEWIDTH = 8,
+
+  // text
   FONTSIZE = 12,
-  FONT_COLOR = '#000',
+  FONT_COLOR = '#FFFFFF',
 
   SELECTED_RADIUS = 6,
-  SELECTED_DOT_COLOR = '#2E5C6E'
+  SELECTED_DOT_COLOR = '#2E5C6E',
 }
 
 export const stationColor = (line: string[]) => {

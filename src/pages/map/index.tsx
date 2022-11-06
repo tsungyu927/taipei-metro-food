@@ -66,8 +66,7 @@ const Map = ({ handleClickStation }: MapProps) => {
 
   const svgStyle = {
     width: size.width,
-    height: size.height,
-    background: DEFAULT.BACKGROUND_COLOR
+    height: size.height
   }
 
   const connector = useMemo(() =>
@@ -102,8 +101,13 @@ const Map = ({ handleClickStation }: MapProps) => {
   , [scale])
 
   return (
-    <div className="w-full h-full flex justify-center items-start overflow-auto">
-      <TransformWrapper>
+    <div
+      className="w-fit h-fit flex justify-center items-start overflow-auto"
+      style={{ backgroundColor: DEFAULT.BACKGROUND_COLOR }}
+    >
+      <TransformWrapper
+        centerZoomedOut
+      >
         <TransformComponent>
           <svg style={svgStyle}>
             <g id="connector">{connector}</g>

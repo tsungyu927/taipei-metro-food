@@ -4,6 +4,7 @@ import { ConnectorDataProps } from 'interface/I_Map'
 import { stationColor } from 'utils/mapConfig'
 
 interface ConnectorProps extends ConnectorDataProps {
+  line: string
   strokeWidth: number
   scale: number
 }
