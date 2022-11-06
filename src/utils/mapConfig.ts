@@ -3,6 +3,9 @@ import { LINE, ANCHOR } from 'interface/I_Map'
 export enum DEFAULT {
   BACKGROUND_COLOR = '#282828',
 
+  INIT_POSX = 394,
+  INIT_POSY = 757,
+
   // station
   RADIUS = 10,
   STATION_COLOR = '#FFFFF4',

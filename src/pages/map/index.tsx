@@ -1,6 +1,6 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState, useRef } from 'react'
 import { v4 as uuidv4 } from 'uuid'
-import { TransformWrapper, TransformComponent } from '@pronestor/react-zoom-pan-pinch'
+import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from '@pronestor/react-zoom-pan-pinch'
 
 import Connector from 'components/connector'
 import Station from 'components/station'
@@ -17,6 +17,7 @@ interface MapProps {
 }
 
 const Map = ({ handleClickStation }: MapProps) => {
+  const ref = useRef<ReactZoomPanPinchRef | null>(null)
   // the aspect of 【svg】
   const aspect = useMemo(() => stationData.size.width / stationData.size.height, [])
   // the size of 【svg】
@@ -64,6 +65,24 @@ const Map = ({ handleClickStation }: MapProps) => {
     setScale(size.height / stationData.size.height)
   }, [size])
 
+  useEffect(() => {
+    // set map pos to the station that user clicked
+    if (clickedStation !== undefined) {
+      const staticScale = 2
+      const x = (clickedStation.x * staticScale - size.width / 2) * -1
+      const y = (clickedStation.y * staticScale - size.height / 2) * -1
+      ref?.current?.setTransform(x, y, staticScale)
+    }
+  }, [clickedStation])
+
+  useEffect(() => {
+    // set init pos in the beginning
+    const defaultScale = 2
+    const initX = ((DEFAULT.INIT_POSX * scale * defaultScale) - (size.width / 2)) * -1
+    const initY = ((DEFAULT.INIT_POSY * scale * defaultScale) - (size.height / 2)) * -1
+    ref?.current?.setTransform(initX, initY, defaultScale)
+  }, [scale])
+
   const svgStyle = {
     width: size.width,
     height: size.height
@@ -106,6 +125,7 @@ const Map = ({ handleClickStation }: MapProps) => {
       style={{ backgroundColor: DEFAULT.BACKGROUND_COLOR }}
     >
       <TransformWrapper
+        ref={ref}
         centerZoomedOut
       >
         <TransformComponent>
