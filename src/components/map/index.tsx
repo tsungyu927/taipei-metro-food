@@ -2,9 +2,9 @@ import React, { useEffect, useMemo, useState, useRef } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import { TransformWrapper, TransformComponent, ReactZoomPanPinchRef } from '@pronestor/react-zoom-pan-pinch'
 
-import Connector from 'components/connector'
-import Station from 'components/station'
-import SelectedDot from 'components/selectedDot'
+import Connector from 'components/map/Connector'
+import Station from 'components/map/Station'
+import SelectedDot from 'components/map/SelectedDot'
 
 import connectorData from 'data/connector.json'
 import stationData from 'data/station.json'
@@ -126,9 +126,9 @@ const Map = ({
             )}
             <g id="title">
               <text
-                x={size.width - 50}
-                y={100}
-                fontSize={50}
+                x={size.width - 50 * scale}
+                y={100 * scale}
+                fontSize={50 * scale}
                 fontFamily="TaipeiSans"
                 textAnchor="end"
                 fill={DEFAULT.FONT_COLOR as string}
@@ -136,9 +136,9 @@ const Map = ({
                 台北捷運美食地圖
               </text>
               <text
-                x={size.width - 50}
-                y={150}
-                fontSize={25}
+                x={size.width - 50 * scale}
+                y={150 * scale}
+                fontSize={25 * scale}
                 fontFamily="TaipeiSans"
                 textAnchor="end"
                 fill={DEFAULT.FONT_COLOR as string}
