@@ -4,6 +4,7 @@ import Map from 'components/map'
 // import stationData from 'data/station.json'
 
 import { ClickStationProps } from 'interface/I_Map'
+import Detail from 'components/detail'
 
 function Home () {
   // the aspect of container
@@ -34,14 +35,12 @@ function Home () {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  console.log(mapSize)
-
   return (
     <div className="p-8 relative w-full h-full flex justify-between items-center bg-bg-dark-secondary">
-      <div>
-        ...
+      <div className="w-[60%] h-full">
+        <Detail info={clickedStation} />
       </div>
-      <div className="w-fit h-fit rounded-2xl overflow-hidden">
+      <div className="w-[40%] h-full rounded-2xl overflow-hidden">
         <Map
           width={mapSize?.width}
           height={mapSize?.height}
