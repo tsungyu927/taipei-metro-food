@@ -1,23 +1,23 @@
-import React, { useState } from 'react'
-import Map from 'pages/map'
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import routers from 'routers'
+import Menu from 'components/menu'
 
-import { ClickStationProps } from 'interface/I_Map'
-
-function App () {
-  const [clickedStation, setClickedStation] = useState<ClickStationProps | undefined>(undefined)
-
-  const handleClickStation = (info: ClickStationProps) => {
-    setClickedStation(info)
-  }
-
+const App = () => {
   return (
-    <div className="relative w-screen h-screen flex justify-center items-center bg-[#E7E7E7]">
-      <Map handleClickStation={handleClickStation} />
-      {(clickedStation !== undefined) && (
-        <div className="fixed bottom-4 right-4">
-          {clickedStation.name.zh}
+    <div className="w-screen h-screen flex">
+      <BrowserRouter>
+        <div className="w-[250px] h-full bg-bg-dark-primary">
+          <Menu />
         </div>
-      )}
+        <div className="w-[calc(100%-250px)] h-full bg-bg-dark-secondary">
+          <Routes>
+            {routers.map((router) => (
+              <Route key={router.name} path={router.path} element={router.element} />
+            ))}
+          </Routes>
+        </div>
+      </BrowserRouter>
     </div>
   )
 }
